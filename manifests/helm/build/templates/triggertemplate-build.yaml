@@ -49,7 +49,7 @@ spec:
           - name: common-password-secret
             value: common-password-secret
           - name: rekor-url
-            value: http://rekor-server.rekor.svc
+            value: https://rekor.apps.cluster-x455l.sandbox381.opentlc.com/
         pipelineRef:
           name: {{ .Values.app.name }}-build
         serviceAccountName: pipeline
