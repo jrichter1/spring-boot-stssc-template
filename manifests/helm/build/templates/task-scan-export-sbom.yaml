@@ -9,7 +9,7 @@ metadata:
     task.output.location: results
 spec:
   params:
-  - default: https://cyclonedx-bom-repo-server-cyclonedx.apps.cluster-x455l.sandbox381.opentlc.com/
+  - default: https://cyclonedx-bom-repo-server-cyclonedx.apps.cluster-7x95b.sandbox67.opentlc.com/
     name: cyclonedxHostUrl
     type: string
   - default:
